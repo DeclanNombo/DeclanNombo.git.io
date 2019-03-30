@@ -1,0 +1,214 @@
+*{
+    font-family: "roboto";
+}
+span{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.zoom img{
+    width:400px;
+    height: 350px;
+}
+
+.zoom{
+    transition: transform .4s;
+    width: 800px;
+    height: 550px;
+    box-sizing: border-box;  
+}
+
+.zoom:hover{
+    transform: scale(1.5);
+    box-shadow:  5px 2px 10px;
+}
+
+@media(max-width:1000px){
+    .zoom{
+        width:400px;
+        height: 275px;
+    }
+}
+@media(max-width:600px){
+    .zoom{
+        width:300px;
+        height: 237px;
+    }
+}
+
+.contact{
+    box-shadow: 1px 1px 10px -2px;
+    padding: 5px;
+    width: 47%;
+}
+.testimonials{
+   width: 250px;
+   margin-top: 10px;
+}
+
+.services{
+    box-shadow: 1px 1px 5px -2px;
+    padding: 3px;
+    border-radius:20px; 
+    background:rgba(145,148,153,0.2);
+}
+
+.services p{
+    color: #0f0f0f;
+    opacity: 0.7;
+    font-weight: bold;
+}
+
+ h5{
+    color: #947384;
+}
+
+#jumbotron{
+    background-image: url("resources/imgs/jumbo.jpg");
+    z-index: 1;
+    background-position:center;
+    background-size: cover;
+    background-position-x: right;
+    height: 600px;
+}
+
+#jumbotron p{
+    background:black;
+    opacity: 0.9;
+    padding: 20px;
+}
+
+.footer{
+    background: #0f0f0f;
+    height: 300px;
+}
+
+.contact{
+   position: relative;
+   top:50px;
+   text-align: center;
+}
+
+.contact p{
+    line-height: 1.9rem;
+    color: #947384;
+    font-size: 0.8rem;
+}
+
+.contact span{
+    font-size:1rem;
+    color:#0f0f0f;
+    font-family: "georgia";
+}
+.about{
+    border-left:3px solid rgba(148,115,132,0.7);
+    border-top:3px solid rgba(148,115,132,0.7);
+    border-bottom:3px solid rgba(148,115,132,0.7);
+}
+.about2{
+    border-right:3px solid #947384;
+    border-top:3px solid #947384;
+    border-bottom:3px solid #947384;
+}
+#aboutme p{
+    
+    padding:3px 3px;
+    margin-top:5px;
+    text-align: left;
+    font-family: 'Titillium Web', sans-serif;
+    color: #0f0f0f;
+    opacity: 0.7;
+    line-height: 2rem;
+    font-weight: bold;
+}
+
+nav{
+    background:#0f0f0f;
+}
+
+a.nav-link{
+    color: #919499;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+a.nav-link:hover{
+    color:white;
+    border-bottom: solid 1px white;
+    transition:linear 0.3s;
+}
+
+a.navbar-brand{
+    color:white;
+    font-weight: bolder;
+    font-size:1.5rem;
+}
+a.navbar-brand:hover{
+    color: white;
+}
+
+button .navbar-toggler-icon{
+   color: white;
+}
+
+.jumbotron p{
+    color: white;
+    font-size: 1.5rem;
+}
+
+.jumbotron h1{
+    color: white;
+}
+
+.jumbotron span{
+    font-size: 1.9rem;
+}
+.heading{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #3e3e4e;
+    font-size: 1.5rem;
+    border-bottom: #947384 solid 2px;
+    display: inline;
+}
+
+.heading-3{
+    font-size: 0.8rem;
+    color: #947384;
+}
+
+.cust .fab{
+   padding: 20px;
+   font-size: 30px;
+   width: 70px;
+   text-align: center;
+   text-decoration: none;
+   color: white;
+   border-radius: 10px;
+   margin:0 5px;
+}
+
+.cust .fab:hover{
+    opacity: 0.7;
+    text-decoration: none;
+    color: white;
+}
+.cust .fa-facebook-f{
+    background: #3b5998;
+    
+}
+.cust .fa-linkedin-in{
+    background: #13808b;
+}
+.cust .fa-instagram{
+    background: #e08564;
+}
+
+.fa-facebook-f:hover{
+    color: #3b5998;
+}
+.fa-linkedin-in:hover{
+    color: #13808b;
+}
+.fa-instagram:hover{
+    color: #e08564;
+
+}
